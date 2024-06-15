@@ -1,4 +1,0 @@
-This is first file
-add another file to the folder and commit
-add third file to the folder and commit
-add fourth file to the folder and commit
