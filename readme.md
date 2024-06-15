@@ -1,6 +1,5 @@
 # Student Demo Repository
-
-This guide provides a comprehensive list of Git and GitHub commands for students, all in one place.
+The comprehensive list of Git and GitHub commands .
 
 ## Git and GitHub Commands
 
