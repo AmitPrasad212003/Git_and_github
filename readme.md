@@ -7,75 +7,74 @@ The comprehensive list of Git and GitHub commands .
 
 Configure Git with your name and email:
 ```sh
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+    git config --global user.name "Your Name"
+    git config --global user.email "your.email@example.com"
 
 Basic Git Commands
 
 1.Cloning a Repository: Clone a repository from GitHub to your local machine:
 
-git clone https://github.com/AmitPrasad212003/Student_demo.git
+    git clone https://github.com/AmitPrasad212003/Student_demo.git
 
 2.Checking Repository Status: Check the status of your repository:
 
-git status
+    git status
 
 3.Adding Changes: Stage changes for commit:
 
-git add <file>   # To add a specific file
-git add .        # To add all changes
+    git add <file>   # To add a specific file
+    git add .        # To add all changes
 
 4.Committing Changes: Commit your changes with a message:
 
-git commit -m "Describe your changes"
+    git commit -m "Describe your changes"
 
 5.Pushing Changes: Push your committed changes to the remote repository:
 
-git push origin main
+    git push origin main
 
 6.Pulling Changes: Update your local repository with the latest changes from the remote repository:
 
-git pull origin main
+    git pull origin main
 
 .Branching and Merging
 
 1.Creating a Branch: Create a new branch:
 
-git checkout -b new-branch
+    git checkout -b new-branch
 
 2.Switching Branches: Switch to an existing branch:
 
-git checkout branch-name
+    git checkout branch-name
 
 3.Merging Branches: Merge a branch into your current branch:
 
-git merge branch-name
+    git merge branch-name
 
 .Handling Merge Conflicts
 
 * If there are conflicts during merging, Git will notify you. Resolve the conflicts, then:
 
-git add <file_with_conflicts>
-git commit -m "Resolved merge conflicts"
+    git add <file_with_conflicts>
+    git commit -m "Resolved merge conflicts"
 
 .Advanced Git Commands
 
 1.Stashing Changes: Temporarily stash your changes:
 
-git stash
+    git stash
 
 2.Applying Stashed Changes: Apply stashed changes:
 
-
-git stash apply
+    git stash apply
 
 3.Rebasing Branches: Rebase your current branch onto another branch:
 
-git rebase branch-name
+    git rebase branch-name
 
 4.Resetting Commits: Reset your branch to a previous commit:
 
-git reset --hard commit-hash
+    git reset --hard commit-hash
 
 .Collaborating on GitHub
 
