@@ -87,3 +87,11 @@ Basic Git Commands
     2.Go to the original repository on GitHub.
     3.Click the "New pull request" button.
     4.Select the branch with your changes and follow the prompts to create the pull request.
+
+
+# Force Push to Overwrite the Remote Repository
+    -> Since you don’t need the existing GitHub content, use this command:
+       git push origin main --force
+    
+```
+
